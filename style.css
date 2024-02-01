@@ -86,6 +86,19 @@ header p {
     font-size: 45px;
     font-weight: 300;
     text-align: center;
-    margin: 32px;
+    line-height: 120%;
+    margin: 32px 32px 0 32px;
     color: rgba(68, 46, 79, 0.781);
+    max-width: 928px;
+}
+
+header p span {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 120%;
+    margin: 32px 32px 0 32px;
+    color: black;
+    max-width: 928px;
 }
