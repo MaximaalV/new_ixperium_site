@@ -18,11 +18,15 @@ body {
 
 }
 
+/* main styles */
 main {
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background: rgb(239,210,255);
+    background: linear-gradient(0deg, rgba(232, 189, 255, 0.781) 0%, rgba(230,227,232,1) 100%);
 }
 
 nav {
@@ -34,7 +38,7 @@ nav {
     backdrop-filter: blur(36px);
     background-color: #f0f0f052;
     border-radius: 1rem;
-    box-shadow: 2px 4px 20px #0000000a;
+    box-shadow: 2px 4px 20px #0000003a;
     cursor: pointer;
     overflow: hidden;
     position: fixed;
@@ -50,4 +54,38 @@ nav img {
 nav i {
     font-size: 44px;
     color: var(--color-grey);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 128px 0 256px 0;
+}
+
+header h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 75px;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(105, 72, 123, 0.781);
+}
+
+header img {
+    height: auto;
+    width: 100%;
+    margin-top: calc(5svh + 2rem);
+    margin-bottom: calc(5svh + 2rem);
+    box-shadow: 2px 4px 20px #00000060;
+}
+
+header p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 45px;
+    font-weight: 300;
+    text-align: center;
+    margin: 32px;
+    color: rgba(68, 46, 79, 0.781);
 }
