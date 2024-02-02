@@ -73,7 +73,18 @@ header h1 {
     color: rgba(105, 72, 123, 0.781);
 }
 
+/*
 header img {
+    height: auto;
+    width: 100%;
+    margin-top: calc(5svh + 2rem);
+    margin-bottom: calc(5svh + 2rem);
+    box-shadow: 2px 4px 20px #00000060;
+}
+*/
+
+header video {
+    object-fit: cover;
     height: auto;
     width: 100%;
     margin-top: calc(5svh + 2rem);
