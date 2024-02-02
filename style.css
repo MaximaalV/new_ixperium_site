@@ -151,8 +151,17 @@ header p span {
 }
 
 /* card styling */
+.cards {
+    width: 60%;
+    min-height: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
 .card {
-    width: 200px;
+    min-width: 200px;
     height: 254px;
     background: linear-gradient(0deg, rgba(232, 189, 255, 0.781) 0%, rgba(230,227,232,1) 100%);
     border-radius: 16px;
