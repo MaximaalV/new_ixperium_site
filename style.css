@@ -149,3 +149,63 @@ header p span {
 .lab p span {
     color: var(--color-white);
 }
+
+/* card styling */
+.card {
+    width: 200px;
+    height: 254px;
+    background: linear-gradient(0deg, rgba(232, 189, 255, 0.781) 0%, rgba(230,227,232,1) 100%);
+    border-radius: 16px;
+    box-shadow: 2px 4px 20px #d1a9e874;
+}
+   
+.card .card-border-top {
+    width: 60%;
+    height: 3%;
+    background: var(--color-purple);
+    margin: auto;
+    border-radius: 0px 0px 15px 15px;
+}
+   
+.card span {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+    font-size: 24px;
+}
+   
+.card .job {
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+   
+.card .img {
+    width: 60%;
+    height: 40%;
+    background: var(--color-purple);
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 25px;
+}
+   
+.card button {
+    padding: 8px 25px;
+    margin: auto;
+    border-radius: 8px;
+    border: none;
+    margin-top: 30px;
+    background: var(--color-purple);
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+   
+.card button:hover {
+    background: #560e80;
+}
