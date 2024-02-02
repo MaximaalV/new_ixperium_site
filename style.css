@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Mono&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 :root {
-    --color-white: #;
-    --color-black: #;
+    --color-white: #f7f7f2;
+    --color-black: #141414;
     --color-grey: #a3a3a3;
     --color-purple: #662a88;
 } 
@@ -112,4 +112,40 @@ header p span {
     margin: 32px 32px 0 32px;
     color: black;
     max-width: 928px;
+}
+
+/* section 1 styles */
+.lab {
+    padding-top: 16rem;
+    padding-bottom: 232px;
+    background-color: var(--color-black);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.lab h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 75px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--color-white);
+}
+
+.lab p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 120%;
+    margin: 32px 32px 0 32px;
+    color: var(--color-grey);
+    max-width: 928px;
+    margin-bottom: 11rem;
+}
+
+.lab p span {
+    color: var(--color-white);
 }
