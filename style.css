@@ -254,10 +254,15 @@ header p span {
 .card .img {
     width: 60%;
     height: 40%;
-    background: #652a88bb;
     border-radius: 15px;
     margin: auto;
     margin-top: 25px;
+}
+
+.card .img img {
+    width: 80%;
+    border-radius: 15px;
+    border: 1px solid var(--color-grey);
 }
   
 .card span {
@@ -266,14 +271,14 @@ header p span {
     color: white;
     text-align: center;
     display: block;
-    padding-top: 10px;
+    padding-top: 20px;
     font-size: 20px;
 }
   
 .card p {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
-    margin: 10px auto;
+    margin: 5px auto;
 }
 
 .card i {
