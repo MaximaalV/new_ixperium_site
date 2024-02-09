@@ -164,6 +164,7 @@ header p span {
     justify-content: space-between;
     width: 60%;
     margin: 0 auto;
+    margin-bottom: 11rem;
 }
 
 .card {
@@ -177,17 +178,6 @@ header p span {
     box-shadow: 2px 4px 20px black;
     text-align: center;
 }
- 
-/*
-.card-border-top {
-    width: 60%;
-    height: 3%;
-    background: #652a88;
-    
-    margin: auto;
-    border-radius: 0px 0px 15px 15px;
-}
-*/
   
 .card .img {
     width: 60%;
@@ -227,4 +217,58 @@ header p span {
 .card i:hover {
     color: var(--color-purple);
     transition: 0.2s ease-in-out;
+}
+
+/* Lijst styling */
+.lijst {
+    
+}
+
+.lijn {
+    height: 1px;
+    width: 100%;
+    background-color: var(--color-grey);
+}
+
+.link {
+    width: 928px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.link h1 {
+    font-size: 28px;
+    line-height: 120%;
+}
+
+.link .arrow {
+    width: 464px;
+    height: 288px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.arrow p {
+    font-size: 24px;
+    margin: auto 0;
+    text-align: start;
+}
+
+.arrow a {
+    cursor: pointer;
+}
+
+.arrow i:hover {
+    color: var(--color-purple);
+    transition: 0.2s ease-in-out;
+}
+
+.arrow i {
+    font-size: 60px;
+    color: var(--color-white);
 }
