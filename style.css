@@ -15,7 +15,8 @@
 }
 
 body {
-
+    line-height: inherit;
+    margin: 0
 }
 
 /* main styles */
@@ -71,7 +72,19 @@ header h1 {
     font-weight: 400;
     text-align: center;
     color: rgba(105, 72, 123, 0.781);
+    animation: fadeIn 1s ease-in;
 }
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+
+
 
 /*
 header img {
@@ -90,6 +103,7 @@ header video {
     margin-top: calc(5svh + 2rem);
     margin-bottom: calc(5svh + 2rem);
     box-shadow: 2px 4px 20px #00000060;
+    animation: fadeIn 1s ease-in;
 }
 
 header p {
@@ -101,6 +115,7 @@ header p {
     margin: 32px 32px 0 32px;
     color: rgba(68, 46, 79, 0.781);
     max-width: 928px;
+    animation: fadeIn 1s ease-in;
 }
 
 header p span {
@@ -132,6 +147,7 @@ header p span {
     font-weight: 400;
     text-align: center;
     color: var(--color-white);
+    animation: fadeIn 1s ease-in;
 }
 
 .lab p {
@@ -151,75 +167,6 @@ header p span {
 }
 
 /* card styling */
-/*
-.cards {
-    width: 60%;
-    min-height: 12rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 3rem;
-}
-
-.card {
-    min-width: 200px;
-    height: 254px;
-    background: linear-gradient(0deg, rgba(232, 189, 255, 0.781) 0%, rgba(230,227,232,1) 100%);
-    border-radius: 16px;
-    box-shadow: 2px 4px 20px #d1a9e874;
-}
-   
-.card .card-border-top {
-    width: 60%;
-    height: 3%;
-    background: var(--color-purple);
-    margin: auto;
-    border-radius: 0px 0px 15px 15px;
-}
-   
-.card span {
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 600;
-    color: white;
-    text-align: center;
-    display: block;
-    padding-top: 10px;
-    font-size: 24px;
-}
-   
-.card .job {
-    font-weight: 400;
-    font-family: 'Ubuntu', sans-serif;
-    color: white;
-    text-align: center;
-    font-size: 16px;
-}
-   
-.card .img {
-    width: 60%;
-    height: 40%;
-    background: var(--color-purple);
-    border-radius: 15px;
-    margin: auto;
-    margin-top: 25px;
-}
-   
-.card button {
-    padding: 8px 25px;
-    margin: auto;
-    border-radius: 8px;
-    border: none;
-    margin-top: 30px;
-    background: var(--color-purple);
-    color: white;
-    font-weight: 600;
-    cursor: pointer;
-}
-   
-.card button:hover {
-    background: #560e80;
-}
-*/
 .cards {
     display: flex;
     flex-wrap: wrap;
